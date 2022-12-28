@@ -8,7 +8,7 @@ spec:
   values:
     cni:
       cniBinDir: /var/lib/cni/bin
-      cniConfDir: /etc/cni/multus/net.d
+      cniConfDir: /etc/cni/net.d
       chained: false
       cniConfFileName: "istio-cni.conf"
       excludeNamespaces:
